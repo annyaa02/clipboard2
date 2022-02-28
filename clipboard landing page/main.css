@@ -1,0 +1,222 @@
+/* green: hsl(171, 66%, 44%)
+          #26BBA5  */
+ /*  фиолетовsій: hsl(233, 100%, 69%)*/
+ /* серый большой текст hsl(210, 10%, 33%)
+ 4F565C*/
+
+ /* серый маленький hsl(201, 11%, 66%)
+ AFB4B7 */
+
+
+
+body {
+  margin: auto;
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  max-width: 1440px;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 1.7em;
+
+  
+}
+
+h1, h2, h3 {
+  color: #4F565C;
+  font-weight: 800;
+  /* letter-spacing: 1px; */
+
+}
+p {
+  color: #afb4b7;
+  letter-spacing: 0.9px;
+}
+.container-header {
+  position: relative;
+  padding: 0 370px;
+  max-width: 720px;
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    align-items: center;
+  
+  
+}
+.container-header img {
+  margin-top: 130px;
+  margin-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.text-h {
+  text-align: center;
+  padding: 0 27px;
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px; 
+}
+.buttons a {
+  text-decoration: none;
+  
+  border-radius: 290px;
+  padding: 15px 30px;
+  color: #DFFFFF;
+
+  
+}
+.a-ios {
+  background-color: #26BBA5 ;
+  margin-right: 7px;
+}
+.a-mac {
+  background-color: hsl(233, 100%, 69%) ;
+  margin-left: 7px;
+}
+
+
+
+
+/* main part */
+
+/* part 1 */
+
+
+.container-section {
+  padding: 160px 370px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-decoration: none;
+  
+
+}
+.text-s {
+  max-width: 700px;
+  text-align: justify;						 
+	text-align-last: center;
+  margin-bottom: 80px;
+}
+.mainpart1 {
+  display: flex;
+  max-width: 1440px;
+  position: relative;
+ 
+
+  
+}
+.image {
+ /* position: absolute;  */
+}
+
+.image1 {
+  transform: translateX(-60%);
+  height: 100%;
+}
+.points1 {
+  min-width: 350px;
+ margin-left: -240px;
+}
+.point {
+  margin-bottom: 50px;
+}
+.point h3 {
+  margin: auto;
+}
+
+
+
+/* adapting for header*/
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 340px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+/* adapting for part1 in section */
+@media screen and (max-width: 1240px) {
+  .buttons a {
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+  }
+  .points1 {
+    min-width: 200px ;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .buttons a {
+   
+    min-width: 160px;
+    
+    text-align: center;
+  }
+  .points1 {
+    margin-top: 150px;
+    box-sizing: content-box;
+    min-width: 500px;
+  }
+  .mainpart1 {
+    display: block;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .buttons a {
+  
+    min-width: 170px;
+    
+    text-align: center;
+
+  }
+  .image1 {
+    box-sizing: content-box;
+  }
+  .mainpart1 {
+    display: block;
+  }
+  .points1 {
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 340px) {
+  .buttons a {
+    min-width: 130px;
+    display: inline-block;
+    text-align: center;
+  }
+  .points1 {
+    
+    min-width: 200px;
+    box-sizing: border-box;
+  }
+}
+
+
